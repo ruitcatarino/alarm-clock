@@ -4,11 +4,11 @@
 
 alarm.py [-h] [-t TIME] [-m MESSAGE]
 
--h, --help,          Show this help message
+-h or --help                   Show this help message,  OPTIONAL
 
--t  --time,          Time to set the alarm (HH:MM)
+-t or --time [TIME]            Time to set the alarm (HH:MM),  OPTIONAL
 
--m  --message,       Message that shows when the alarm goes off
+-m or --message [MESSAGE]      Message that shows when the alarm goes off,  OPTIONAL
 
 
 ## Requirement
