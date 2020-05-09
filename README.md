@@ -1,11 +1,18 @@
 # Alarm Clock
 
-usage: alarm.py [-h] [-t TIME] [-m MESSAGE]
+Plays an alarm sound at a desired time, 24H format
 
-optional arguments:
-  -t TIME, --time TIME          Time to set the alarm (HH:MM)
-  -m MESSAGE, --message MESSAGE Message that shows when the alarm goes off
+alarm.py [-h] [-t TIME] [-m MESSAGE]
+
+-h, --help,          Show this help message
+
+-t  --time,          Time to set the alarm (HH:MM)
+
+-m  --message,       Message that shows when the alarm goes off
+
 
 ## Requirement
 
-sudo apt install sox
+>sudo apt install sox
+
+Needed for reproducing sound of alarm
