@@ -1,6 +1,6 @@
 # Alarm Clock
 
-Plays an alarm sound at a desired time, 24H format
+Plays an alarm sound at a desired time, 24H format.
 
 alarm.py [-h] [-t TIME] [-m MESSAGE]
 
