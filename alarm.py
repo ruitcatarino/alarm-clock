@@ -27,7 +27,7 @@ def args_time():
         hours = input('Hours:')
         minutes = input('Minutes:')
 
-        return [hours,minutes]
+        return [int(hours),int(minutes)]
 
 def args_message():
     if not args["message"]:
