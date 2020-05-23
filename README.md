@@ -13,12 +13,10 @@ alarm.py [-h] [-t TIME] [-m MESSAGE]
 
 ## Requirement
 
->Ubuntu
->
+### Ubuntu:
 >sudo apt install sox
->
->Arch Linux
->
+
+### Arch Linux:
 >sudo pacman -S sox
 
 Needed for reproducing sound of alarm
